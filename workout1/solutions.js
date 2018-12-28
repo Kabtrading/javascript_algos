@@ -40,8 +40,6 @@ function reverseString(str) {
     //------ solution 5 reduce-----//
     return [...str].reduce((revString, char) => char + revString)
     
-
-
 }
 
 
@@ -136,7 +134,7 @@ function fizzBuzz() {
 
 
 // Call Function
-const output1 = reverseString('challenge 1')
+const output1 = reverseString('hello there')
 const output2 = isPalindrome('madam')
 const output3 = reverseInt(-1234)
 const output4 = capitalizeLetters('Hello my nAme is drew beaupre')
@@ -144,4 +142,4 @@ const output5 = maxCharacter('Hellomynameisdrewbeaupretttttt')
 const output6 = fizzBuzz()
 
 
-console.log(output6)
+console.log(output1)

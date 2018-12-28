@@ -5,7 +5,7 @@
 function reverseString(str) {
     
     
-    return 'Let\'s Start'
+    
 }
 
 
